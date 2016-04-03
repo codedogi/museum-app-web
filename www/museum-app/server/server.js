@@ -15,7 +15,7 @@ app.engine('html', swig.renderFile);
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({'extended': false}));
-app.use(express.static('public/app'));
+app.use(express.static('www/museum-app/app'));
 app.use('/', routes);
 
 // error handlers
