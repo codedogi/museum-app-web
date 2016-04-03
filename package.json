@@ -1,0 +1,63 @@
+{
+  "name": "museum-app",
+  "version": "0.1.0",
+  "description": "Museum Kiosk Application",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/codedogi/museum-app.git"
+  },
+  "homepage": "https://github.com/codedogi/museum-app",
+  "keywords": [
+    "bootstrap",
+    "node",
+    "express",
+    "handlebars",
+    "raspberrypi"
+  ],
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "bootstrap": "^3.3.6",
+    "errorhandler": "^1.4.3",
+    "express": "^4.13.4",
+    "express-handlebars": "^3.0.0",
+    "font-awesome": "^4.5.0",
+    "jquery": "2.2.2",
+    "morgan": "^1.7.0",
+    "open": "0.0.5",
+    "swig": "^1.4.2"
+  },
+  "author": "Rich Spencer <hrspencer@hotmail.com>",
+  "contributors": [
+    {
+      "name": "Rich Spencer",
+      "email": "hrspencer@hotmail.com"
+    }
+  ],
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/codedogi/museum-app/issues"
+  },
+  "devDependencies": {
+    "2015": "0.0.1",
+    "browser-sync": "^2.11.1",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-browserify": "^0.5.1",
+    "gulp-cache": "^0.4.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-concat": "^2.6.0",
+    "gulp-cssnano": "^2.1.0",
+    "gulp-debug": "^2.1.2",
+    "gulp-inject": "^3.0.0",
+    "gulp-insert": "^0.5.0",
+    "gulp-jshint": "^2.0.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-ruby-sass": "^2.0.6",
+    "gulp-uglify": "^1.5.1",
+    "jshint": "^2.9.1",
+    "node-inspector": "^0.12.7",
+    "run-sequence": "^1.1.5"
+  }
+}
